@@ -1,0 +1,16 @@
+DEFINE TP1_lib TP1_lib
+ASSIGN TP1_lib libMode shared
+DEFINE Generic_250nm_Devices ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Generic_250nm_Devices
+ASSIGN Generic_250nm_Devices libMode shared
+DEFINE analogLib ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\analogLib
+ASSIGN analogLib libMode shared
+DEFINE SPICE_Commands ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\SPICE_Commands
+ASSIGN SPICE_Commands libMode shared
+DEFINE SPICE_Measure ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\SPICE_Measure
+ASSIGN SPICE_Measure libMode shared
+DEFINE SPICE_Plot ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\SPICE_Plot
+ASSIGN SPICE_Plot libMode shared
+DEFINE basic ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\basic
+ASSIGN basic libMode shared
+DEFINE Misc ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\Misc
+ASSIGN Misc libMode shared

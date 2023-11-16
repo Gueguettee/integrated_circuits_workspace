@@ -1,0 +1,185 @@
+{
+    "Subckts": [
+        {
+            "Library": "TP1_lib",
+            "Cell": "testbench",
+            "View": "schematic",
+            "Ports": "",
+            "Instances": [
+                {
+                    "SimName": "XCMOS_min_1",
+                    "Name": "CMOS_min_1",
+                    "Library": "TP1_lib",
+                    "Cell": "CMOS_min",
+                    "View": "symbol",
+                    "Primitive": "False",
+                    "Nodes": [
+                        "N_1",
+                        "N_2",
+                        "vdd!",
+                        "vss!"
+                    ]
+                },
+                {
+                    "SimName": "VVx",
+                    "Name": "Vx",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "N_1",
+                        "0"
+                    ]
+                },
+                {
+                    "SimName": "VVy",
+                    "Name": "Vy",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "N_2",
+                        "0"
+                    ]
+                },
+                {
+                    "SimName": "VV3",
+                    "Name": "V3",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "vss!",
+                        "0"
+                    ]
+                },
+                {
+                    "SimName": "VV5",
+                    "Name": "V5",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "vdd!",
+                        "0"
+                    ]
+                }
+            ],
+            "Nets": {
+                "0": "0",
+                "N_1": "N_1",
+                "N_2": "N_2",
+                "vdd!": "vdd!",
+                "vss!": "vss!"
+            }
+        },
+        {
+            "Library": "TP1_lib",
+            "Cell": "CMOS_min",
+            "View": "schematic",
+            "Ports": [
+                "x",
+                "y",
+                "vdd!",
+                "vss!"
+            ],
+            "Instances": [
+                {
+                    "SimName": "XMn1",
+                    "Name": "Mn1",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "nmos25x",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "y",
+                        "x",
+                        "vss!",
+                        "vss!"
+                    ]
+                },
+                {
+                    "SimName": "XMp1",
+                    "Name": "Mp1",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "pmos25x",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "y",
+                        "x",
+                        "vdd!",
+                        "vdd!"
+                    ]
+                }
+            ],
+            "Nets": {
+                "x": "x",
+                "y": "y",
+                "vdd!": "vdd!",
+                "vss!": "vss!"
+            }
+        }
+    ],
+    "Models": [
+        {
+            "Library": "analogLib",
+            "Cell": "vdc",
+            "View": "symbol",
+            "Pins": [
+                "PLUS",
+                "MINUS"
+            ],
+            "PinRow": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "Library": "Generic_250nm_Devices",
+            "Cell": "nmos25x",
+            "View": "symbol",
+            "Pins": [
+                "d",
+                "g",
+                "s",
+                "b"
+            ],
+            "PinRow": [
+                "3",
+                "2",
+                "1",
+                "4"
+            ]
+        },
+        {
+            "Library": "Generic_250nm_Devices",
+            "Cell": "pmos25x",
+            "View": "symbol",
+            "Pins": [
+                "d",
+                "g",
+                "s",
+                "b"
+            ],
+            "PinRow": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        }
+    ],
+    "Root": "TP1_lib\/testbench\/schematic",
+    "LCVDelim": "\/",
+    "TermDelim": ".",
+    "HierDelim": ".",
+    "Language": "hspiceD",
+    "Testbench": "Spice",
+    "Simulator": "T-Spice",
+    "Netlist": "C:\\git\\integrated_circuits_workspace\\TP1\\SimulationResults\\TP1_lib\\testbench\\schematic.sp"
+}

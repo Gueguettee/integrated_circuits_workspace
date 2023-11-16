@@ -1,0 +1,22 @@
+{
+    "jobid": "7",
+    "name": "schematic",
+    "designpath": "C:\\git\\integrated_circuits_workspace\\TP1\\lib.defs",
+    "library": "TP1_lib",
+    "cell": "testbench",
+    "testbench": "Spice",
+    "view": "schematic",
+    "status": "finished",
+    "queued": "2023-11-16 16:01:05",
+    "started": "2023-11-16 16:01:05",
+    "stopped": "2023-11-16 16:01:10",
+    "localsimulation": "true",
+    "netlist": "..\\..\\schematic.sp",
+    "simulator": "T-Spice",
+    "simulatorversion": "T-Spice Version 2023.2",
+    "logfile": "schematic.log",
+    "resultsdir": "C:\\git\\integrated_circuits_workspace\\TP1\\SimulationResults\\TP1_lib\\testbench\\schematic\\schematic",
+    "outputfile": "..\\schematic.tsim",
+    "outputformat": "tsimdb",
+    "viewer": "W-Edit"
+}
