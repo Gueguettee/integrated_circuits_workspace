@@ -1,0 +1,82 @@
+{
+    "Subckts": [
+        {
+            "Library": "TP2_lib",
+            "Cell": "npn_a",
+            "View": "schematic",
+            "Ports": "",
+            "Instances": [
+                {
+                    "SimName": "QQ1",
+                    "Name": "Q1",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "npn_2",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "N_1",
+                        "N_1",
+                        "gnd!",
+                        "gnd!"
+                    ]
+                },
+                {
+                    "SimName": "VV1",
+                    "Name": "V1",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "N_1",
+                        "gnd!"
+                    ]
+                }
+            ],
+            "Nets": {
+                "N_1": "N_1",
+                "gnd!": "gnd!"
+            }
+        }
+    ],
+    "Models": [
+        {
+            "Library": "analogLib",
+            "Cell": "vdc",
+            "View": "symbol",
+            "Pins": [
+                "PLUS",
+                "MINUS"
+            ],
+            "PinRow": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "Library": "Generic_250nm_Devices",
+            "Cell": "npn_2",
+            "View": "symbol",
+            "Pins": [
+                "c",
+                "b",
+                "e",
+                "s"
+            ],
+            "PinRow": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        }
+    ],
+    "Root": "TP2_lib\/npn_a\/schematic",
+    "LCVDelim": "\/",
+    "TermDelim": ".",
+    "HierDelim": ".",
+    "Language": "hspiceD",
+    "Testbench": "Spice",
+    "Simulator": "T-Spice",
+    "Netlist": "C:\\git\\integrated_circuits_workspace\\TP1\\SimulationResults\\TP2_lib\\npn_a\\schematic.sp"
+}

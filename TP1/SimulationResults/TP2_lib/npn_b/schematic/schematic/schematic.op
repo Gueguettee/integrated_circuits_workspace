@@ -1,0 +1,53 @@
+
+
+AC SMALL-SIGNAL MODELS: temperature=25.0
+
+
+                  0              
+                  QQ1              
+MODEL             npn_2            
+TYPE              NPN              
+REGION            On               
+IB                  10.0000n      
+IC                 949.0769n      
+VBE                631.6896m      
+VBC               -368.3104m      
+VCE                  1.0000       
+VBX               -368.2867m      
+VS                -999.9763m      
+BETADC              94.9077       
+GM                  36.5413u      
+RX                  99.9715       
+RPI                  2.6129MEG    
+RMU                999.9908G      
+RO                  29.9862MEG    
+CPI                 77.2572f      
+CMU                 11.8310f      
+CBS                  0.           
+CCS                 55.5189f      
+BETAAC              95.4806       
+FT                  65.2807MEG    
+
+
+* VOLTAGE SOURCES
+
+                  1              
+                  VV2              
+VOLTAGE              1.0000       
+CURRENT           -949.0769n      
+POWER             -949.0769n      
+
+
+* CURRENT SOURCES
+
+                  2              
+                  II1              
+VOLTAGE           -631.6896m      
+CURRENT             10.0000n      
+POWER               -6.3169n      
+
+
+Element name cross-reference:
+      0 : QQ1
+      1 : VV2
+      2 : II1

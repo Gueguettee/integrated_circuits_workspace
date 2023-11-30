@@ -14,3 +14,5 @@ DEFINE basic ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLib
 ASSIGN basic libMode shared
 DEFINE Misc ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs\Misc
 ASSIGN Misc libMode shared
+DEFINE TP2_lib TP2_lib
+ASSIGN TP2_lib libMode shared
