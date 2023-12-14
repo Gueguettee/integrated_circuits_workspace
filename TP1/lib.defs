@@ -16,3 +16,5 @@ DEFINE Misc ..\..\..\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\StdLibs
 ASSIGN Misc libMode shared
 DEFINE TP2_lib TP2_lib
 ASSIGN TP2_lib libMode shared
+DEFINE TP3_lib TP3_lib
+ASSIGN TP3_lib libMode shared

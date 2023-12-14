@@ -1,0 +1,77 @@
+T-Spice - Tanner SPICE
+Version 2023.2
+License validated.
+Product Release ID: T-Spice Win64 2023.2.20230711.20:43:51
+Copyright (C)1988-2023 Siemens EDA
+
+Input folder         = C:\git\integrated_circuits_workspace\TP1\SimulationResults\TP3_lib\nmos_a\
+Output folder        = C:\git\integrated_circuits_workspace\TP1\SimulationResults\TP3_lib\nmos_a\schematic\schematic
+
+	Parsing "C:\git\integrated_circuits_workspace\TP1\SimulationResults\TP3_lib\nmos_a\schematic.sp"
+	Reading library entry "sig3" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\global.lib"
+	Reading library entry "AllSigs" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\global.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\generic_250nm.lib"
+	Reading library entry "Diodes" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\generic_250nm.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\mos.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos25.lib"
+	Reading library entry "NMOS_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos25.lib"
+	Reading library entry "NMOS25_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos25.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos33.lib"
+	Reading library entry "NMOS_HV_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos33.lib"
+	Reading library entry "NMOS33_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\nmos33.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos25.lib"
+	Reading library entry "PMOS_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos25.lib"
+	Reading library entry "PMOS25_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos25.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos33.lib"
+	Reading library entry "PMOS_HV_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos33.lib"
+	Reading library entry "PMOS33_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\pmos33.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\res.lib"
+	Reading library entry "Res_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\res.lib"
+	Reading library entry "RES_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\res.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\cap.lib"
+	Reading library entry "Cap_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\cap.lib"
+	Reading library entry "CAP_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\cap.lib"
+	Reading library entry "TT" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\bip.lib"
+	Reading library entry "BIP_Params" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\bip.lib"
+	Reading library entry "BIP_MODEL" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\bip.lib"
+	Reading library entry "ProMis" from "C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\global.lib"
+
+Start of schematic.sp
+Loaded BJT model library, Gummel-Poon Bipolar with extensions
+Loaded BSIM3v33 model library, Berkeley BSIM3 v3.3.0
+
+General options:
+         search = C:\Users\gaeta\Documents\TannerEDA\TannerTools_v2023.2\Process\Generic_250nm\Models\spice\ 
+        threads = 1
+
+Probing options:
+         probei = 1                    probev = 1
+
+ Device and node counts:
+              MOSFETs -       3
+    MOSFET geometries -       3
+            Resistors -       1
+      Voltage sources -       2
+   Subckt Definitions -       2
+     Subckt Instances -       3
+     Unique Instances -       3
+    Model Definitions -       8
+      Computed Models -       1
+    Independent nodes -       7
+       Boundary nodes -       3
+          Total nodes -      10
+
+	Opening simulation database "C:\git\integrated_circuits_workspace\TP1\SimulationResults\TP3_lib\nmos_a\schematic\schematic.tsim"
+
+
+Parsing                      0.07 seconds
+Setup                        0.05 seconds
+DC Analysis                  0.33 seconds
+Output                       0.03 seconds
+Overhead                     0.34 seconds
+-----------------------------------------
+Total                        0.83 seconds
+
+Simulation completed

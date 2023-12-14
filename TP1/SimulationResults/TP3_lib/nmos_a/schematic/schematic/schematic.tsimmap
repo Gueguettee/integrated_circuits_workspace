@@ -1,0 +1,149 @@
+{
+    "Subckts": [
+        {
+            "Library": "TP3_lib",
+            "Cell": "nmos_a",
+            "View": "schematic",
+            "Ports": "",
+            "Instances": [
+                {
+                    "SimName": "VV1",
+                    "Name": "V1",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "vdd!",
+                        "gnd!"
+                    ]
+                },
+                {
+                    "SimName": "XMn1",
+                    "Name": "Mn1",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "nmos25x",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "N_1",
+                        "N_1",
+                        "gnd!",
+                        "gnd!"
+                    ]
+                },
+                {
+                    "SimName": "RR1",
+                    "Name": "R1",
+                    "Library": "analogLib",
+                    "Cell": "res",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "vdd!",
+                        "N_1"
+                    ]
+                },
+                {
+                    "SimName": "XMn2",
+                    "Name": "Mn2",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "nmos25x",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "vdd!",
+                        "N_1",
+                        "gnd!",
+                        "gnd!"
+                    ]
+                },
+                {
+                    "SimName": "XMn3",
+                    "Name": "Mn3",
+                    "Library": "Generic_250nm_Devices",
+                    "Cell": "nmos25x",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "OUT",
+                        "N_1",
+                        "gnd!",
+                        "gnd!"
+                    ]
+                },
+                {
+                    "SimName": "VV2",
+                    "Name": "V2",
+                    "Library": "analogLib",
+                    "Cell": "vdc",
+                    "View": "symbol",
+                    "Primitive": "True",
+                    "Nodes": [
+                        "OUT",
+                        "gnd!"
+                    ]
+                }
+            ],
+            "Nets": {
+                "N_1": "N_1",
+                "OUT": "OUT",
+                "vdd!": "vdd!",
+                "gnd!": "gnd!"
+            }
+        }
+    ],
+    "Models": [
+        {
+            "Library": "analogLib",
+            "Cell": "vdc",
+            "View": "symbol",
+            "Pins": [
+                "PLUS",
+                "MINUS"
+            ],
+            "PinRow": [
+                "2",
+                "1"
+            ]
+        },
+        {
+            "Library": "analogLib",
+            "Cell": "res",
+            "View": "symbol",
+            "Pins": [
+                "PLUS",
+                "MINUS"
+            ],
+            "PinRow": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "Library": "Generic_250nm_Devices",
+            "Cell": "nmos25x",
+            "View": "symbol",
+            "Pins": [
+                "d",
+                "g",
+                "s",
+                "b"
+            ],
+            "PinRow": [
+                "3",
+                "2",
+                "1",
+                "4"
+            ]
+        }
+    ],
+    "Root": "TP3_lib\/nmos_a\/schematic",
+    "LCVDelim": "\/",
+    "TermDelim": ".",
+    "HierDelim": ".",
+    "Language": "hspiceD",
+    "Testbench": "Spice",
+    "Simulator": "T-Spice",
+    "Netlist": "C:\\git\\integrated_circuits_workspace\\TP1\\SimulationResults\\TP3_lib\\nmos_a\\schematic.sp"
+}

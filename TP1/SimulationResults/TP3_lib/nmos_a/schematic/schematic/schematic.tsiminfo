@@ -1,0 +1,22 @@
+{
+    "jobid": "25",
+    "name": "schematic",
+    "designpath": "C:\\git\\integrated_circuits_workspace\\TP1\\lib.defs",
+    "library": "TP3_lib",
+    "cell": "nmos_a",
+    "testbench": "Spice",
+    "view": "schematic",
+    "status": "finished",
+    "queued": "2023-12-14 15:18:08",
+    "started": "2023-12-14 15:18:08",
+    "stopped": "2023-12-14 15:18:14",
+    "localsimulation": "true",
+    "netlist": "..\\..\\schematic.sp",
+    "simulator": "T-Spice",
+    "simulatorversion": "T-Spice Version 2023.2",
+    "logfile": "schematic.log",
+    "resultsdir": "C:\\git\\integrated_circuits_workspace\\TP1\\SimulationResults\\TP3_lib\\nmos_a\\schematic\\schematic",
+    "outputfile": "..\\schematic.tsim",
+    "outputformat": "tsimdb",
+    "viewer": "W-Edit"
+}
